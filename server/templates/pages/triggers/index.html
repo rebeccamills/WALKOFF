@@ -14,11 +14,6 @@
             display:inline-block;
 {#            background-color:#f8f8f8;#}
         }
-
-        .selectColumn > h2{
-            margin-bottom:25px;
-        }
-
         #deviceSelect{
             width:250px;
             margin-right:50px;
@@ -30,6 +25,36 @@
             position:relative;
             bottom:500px;
             background-color:#ecf0f5;
+        }
+
+        h2 {
+          font-family: 'Lato', sans-serif;
+          font-weight: bold;
+          color: #255876;
+        }
+        /*label {
+          margin-top: 30px;
+        }*/
+        input {
+          background-color: #F0F8FF;
+          border: 1px solid #bdccd5;
+        }
+        button, html input[type=button], input[type=reset], input[type=submit] {
+          background-color: #45AA3B;
+          color: #fff;
+          margin-top: 20px;
+        }
+
+        button#addEntryButton {
+          margin: 0;
+        }
+        .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+          background-color: #367fa9;
+          color: #fff;
+        }
+        .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+          background-color: #102632;
+          color: #fff;
         }
 
         .btn {
@@ -60,7 +85,8 @@
                 width: 250px;
                 height: 600px;
                 overflow: hidden;
-                border: 1px solid #444;
+                border: .5px solid #bdccd5;
+                background-color: #F0F8FF;
             }
             .vframe .slidee {
                 padding: 20px 25px;
